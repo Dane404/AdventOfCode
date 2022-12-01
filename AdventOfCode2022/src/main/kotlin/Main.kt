@@ -3,10 +3,10 @@ import java.util.LinkedList
 
 fun main(args: Array<String>) {
     var lines = getLines("src/main/kotlin/input.txt");
-    println("-------------------Level 1.1--------------------")
+    println("-------------------Level 1.1------------------")
     println("Most Calories: "+getElfWithMostCalories(lines));
     println("----------------------------------------------")
-    println("-------------------Level 1.2--------------------")
+    println("-------------------Level 1.2------------------")
     println("Sum of top 3 elfs calories: "+getTopThreeElfWithMostCalories(lines));
     println("----------------------------------------------")
 }
