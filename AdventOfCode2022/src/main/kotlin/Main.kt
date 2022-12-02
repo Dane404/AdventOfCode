@@ -3,7 +3,6 @@ import java.util.LinkedList
 
 fun main(args: Array<String>) {
     var linesDay1 = getLines("src/main/kotlin/input_1.txt");
-    var lines = getLines("src/main/kotlin/input_1.txt");
     println("-------------------Level 1.1------------------")
     println("Most Calories: "+getElfWithMostCalories(linesDay1));
     println("-------------------Level 1.2------------------")
