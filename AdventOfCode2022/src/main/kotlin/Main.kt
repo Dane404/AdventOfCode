@@ -22,9 +22,6 @@ fun main(args: Array<String>) {
     println("Sum of Priority: "+Day3.calculateSumOfBadgePriority(linesDay3))
 }
 
-
-
-
 fun getLines(path: String):LinkedList<String>
 {
     val lineList = LinkedList<String>()
