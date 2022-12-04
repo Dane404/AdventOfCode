@@ -8,7 +8,7 @@ class Day3 {
             var listOfDuplicates= LinkedList<Char>()
             for(line:String in lines)
             {
-                var compartment1 = line.substring(0,line.length/2)
+                val compartment1 = line.substring(0,line.length/2)
                 var compartment2=line.substring(line.length/2,line.length)
                 for(character:Char in compartment1)
                 {
