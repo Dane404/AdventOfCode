@@ -2,6 +2,7 @@ import day1.Day1
 import day2.Day2
 import day3.Day3
 import day4.Day4
+import day5.Day5
 import java.io.File
 import java.util.LinkedList
 
@@ -27,7 +28,15 @@ fun main(args: Array<String>) {
     println("Sum of fully duplicate tasks: " + Day4.sumOfFullyDuplicateTasks(linesDay4))
     println("-------------------Level 4.2------------------")
     println("Sum of overlapping tasks: " + Day4.sumOfOverlaps(linesDay4))
+    val linesDay5= getLines("src/main/kotlin/day5/input_5.txt")
+    println("-------------------Level 5.1------------------")
+    print("Letters on top of crates: ")
+    Day5.part1(linesDay5)
+    println("-------------------Level 5.2------------------")
+    print("Letters on top of crates: ")
+    Day5.part2(linesDay5)
 }
+
 
 fun getLines(path: String):LinkedList<String>
 {
