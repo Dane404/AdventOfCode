@@ -5,7 +5,7 @@ import kotlin.collections.ArrayDeque
 
 class Day5 {
     companion object{
-        fun part1(lines: LinkedList<String>) {
+        fun getTopOfCratesAfterInstructionPart1(lines: LinkedList<String>) {
             var stacks= fillStackList(lines)
             var arguments = lines.subList(lines.indexOf("")+1,lines.size)
             for(argument in arguments)
@@ -23,7 +23,7 @@ class Day5 {
             printResult(stacks)
         }
 
-        fun part2(lines: LinkedList<String>)
+        fun getTopOfCratesAfterInstructionsPart2(lines: LinkedList<String>)
         {
             var stacks = fillStackList(lines)
             var arguments = lines.subList(lines.indexOf("")+1,lines.size)
