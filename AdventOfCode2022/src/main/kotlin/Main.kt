@@ -5,6 +5,7 @@ import day4.Day4
 import day5.Day5
 import day6.Day6
 import day7.Day7
+import day8.Day8
 import java.io.File
 import java.util.*
 import kotlin.collections.HashMap
@@ -50,12 +51,20 @@ fun main(args: Array<String>) {
     println("-------------------Level 6.2------------------")
     println("First message after character:: "+    Day6.messageAfterFirstCharacters(linesDay6))
 
-    val linesDay7= getLines("src/main/kotlin/day7/input_7")
+    val linesDay7= getLines("src/main/kotlin/day7/input_7.txt")
     println("-------------------Level 7.1------------------")
     println("Sum: "+ Day7.calculateSumOfUnder100kDirectories(linesDay7))
     println("-------------------Level 7.2------------------")
     println("Required space: "+    Day7.calculateRequiredSpaceToDelete(linesDay7))
+
+    val linesDay8= getLines("src/main/kotlin/day8/input_8.txt")
+    println("-------------------Level 8.1------------------")
+    println("Sum: "+ Day8.calculateSumOfVisibleTrees(linesDay8))
+    println("-------------------Level 8.2------------------")
+    println("Required space: "+    Day8.calculateBestScenicScore(linesDay8))
 }
+
+
 
 fun getLines(path: String):LinkedList<String>
 {
